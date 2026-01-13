@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ascilin Raj — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="mar">
+            <!-- NAV -->
+            <header class="nav" role="banner">
+                <div class="brand">
+                    <div class="logo" aria-hidden="true">AR</div>
+                    <div>
+                        <!-- <div class="brand-name">Ascilin Raj</div> -->
+                        <div class="brand-sub">Python • Web Developer • API</div>
+                    </div>
+                </div>
+
+                <nav class="links" aria-label="Main">
+                    <a href="#projects">Projects</a>
+                    <a href="#services">What I Do</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#contact" class="cta">Contact</a>
+                </nav>
+
+                <div style="display:flex;gap:12px;align-items:center">
+                    <button id="resumeBtn" class="cta" title="Download resume"
+                        style="background-color: transparent; color: white; border-color: transparent;">Resume</button>
+
+                    <!-- HAMBURGER (MOBILE ONLY) -->
+                    <button id="menuToggle" class="hamburger">☰</button>
+                </div>
+
+        </div>
+        </header>
+        <!-- MOBILE LEFT DRAWER MENU -->
+        <div id="mobileMenu">
+            <a href="#projects">Projects</a>
+            <a href="#services">What I Do</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <!-- HERO -->
+        <div class="about">
+            <section class="hero">
+                <div class="hero-left reveal" data-reveal>
+                    <h1 class="big" style="margin-top: -150px;">Ascilin Raj R</h1>
+                    <h1 class="big" style="margin-top: 50px;">I develop Python Backend & Web Application.</h1>
+                    <p class="hero-sub">I design, backend systems that solve real
+                        user problems. My focus: reliability, reproducibility and production-ready code.</p>
+
+                    <div class="pills">
+                        <div class="pills">
+                            <div class="pill">Full-Stack Development</div>
+                            <div class="pill">Django Backend</div>
+                            <div class="pill">MongoDB Database</div>
+                            <div class="pill">Python Development</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-right reveal" data-reveal>
+                    <!-- <div class="blob" id="heroBlob" aria-hidden="true"> -->
+                    <!-- <div class="glow-orb" aria-hidden="true"></div> -->
+                    <!-- <div class="featured" role="article" aria-label="Featured project"> -->
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                        <!-- <h3>Featured: Goldifi Finance App</h3>
+                        <div style="font-size:12px;color:var(--muted)">2025 • Full-Stack</div> -->
+                        <img src="images/URK21CS1030 (3).jpg" class="photo">
+                    </div>
+
+                    <!-- <p style="margin-top:8px">
+                        Real-time gold finance application built at Codewild Tech.
+                        Worked on UI, backend APIs, authentication and database modules.
+                    </p>
+
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
+                        <div style="font-weight:800;color:var(--accent2)">
+                            Python • Django • MongoDB
+                        </div> 
+                    </div>-->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </section>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="bg">
+            <section id="projects" class="reveal" data-reveal>
+                <h2 style="font-size:50px;margin-bottom:30px; margin-top: 100px;">Selected Projects</h2>
+                <div class="projects" style="margin-top: 50px;">
+
+                    <div class="card">
+                        <img src="images/skin.webp" height="200px" width="380px"
+                            style="border-radius: 20px; margin-top: -50px;">
+                        <h4>AI Based Skin Cancer Detection Using Dermatoscopic Images</h4>
+                        <p class="muted">CNN + transfer learning and deployment pipelines with clinician-facing
+                            dashboards.
+                        </p>
+                    </div>
+
+                    <div class="card">
+
+                        <img src="images/sentiment.jpg" height="200px" width="380px"
+                            style="border-radius: 20px; margin-top: -50px;">
+
+                        <h4>Sentiment Analysis System</h4>
+                        <p class="muted">End-to-end NLP pipeline and reporting dashboard for business insights.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/mentor.jpg" height="200px" width="380px"
+                            style="border-radius: 20px; margin-top: -50px;">
+                        <h4>Mentorship Booking Platform</h4>
+                        <p class="muted">Full-stack platform with schedules, payments and notifications.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SERVICES -->
+        <section id="services" class="reveal" data-reveal style="margin-top: 150px;">
+            <h2 style="font-size:50px;margin-bottom:12px">What I Create</h2>
+
+            <div class="services">
+                <div class="service"
+                    style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px; padding-top: 100px;">
+                    <div style="font-size:32px;">💻</div>
+                    <strong style="font-size: xx-large;">Web Applications</strong>
+                    <p class="muted" style="margin:0;font-size:18px;">I build fast, scalable, and secure web
+                        applications tailored to real-world business needs. From dashboards to e-commerce platforms, I
+                        focus on clean architecture, smooth performance, and intuitive user experiences.
+                    </p>
+                </div>
+
+                <div class="service"
+                    style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding-top: 100px;">
+                    <div style="font-size:32px;">🎨</div>
+                    <strong style="font-size: xx-large;">User Interfaces</strong>
+                    <p class="muted" style="margin:0;font-size:18px">I craft user interfaces that feel effortless to
+                        interact with—clean layouts, smooth transitions, and thoughtful design. </p>
+                </div>
+
+                <div class="service"
+                    style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding-top: 100px;">
+                    <img src="images/backend.png" style="height: 50px; width: 50px;">
+                    <strong style="font-size: xx-large;">Backend & APIs</strong>
+                    <p class="muted" style="margin:0;font-size:18px">I develop robust backend systems and speed. With
+                        strong authentication, scalable data models, and integrations using MongoDB and other modern
+                        databases. Security and efficiency always come first.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements" class="reveal" data-reveal style="margin-top:130px">
+            <h2 style="font-size:50px;margin-bottom:30px">Achievements</h2>
+            <div style="display:grid;grid-template-columns:1fr;gap:12px">
+
+                <div class="card" style="margin-top: 10px; height: 200px;padding-top: 70px;">
+                    <strong>NPTEL Certifications</strong>
+                    <p class="muted" style="margin-top:6px">
+                        Data Mining — Studied data preprocessing, pattern discovery, classification, and clustering
+                        methods.
+                        Technical English — Improved communication, technical writing, and presentation skills.
+                        Internet of Things (IoT) — Learned IoT architecture, sensors, embedded systems, and real-world
+                        applications..
+                    </p>
+                </div>
+                <div class="card" style="margin-top: 40px; height: 200px; padding-top: 70px;">
+                    <strong>Cisco — Virtual Internship (Python)</strong>
+                    <p class="muted" style="margin-top:6px">
+                        Completed Python essentials and automation labs through Cisco Networking Academy.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <div class="foot">
+        <!-- FOOTER CTA -->
+        <section class="footer-cta reveal" data-reveal style="margin-top:28px; padding-top: 40px;">
+            <div>
+                <div>
+                    <div style="font-weight:800;font-size: larger;color:var(--text)">Like what you see?</div>
+                    <div class="muted" style="margin-top:6px">Let's discuss internships, roles or collaborations.</div>
+                </div>
+                <div style="margin-top: 40px;">
+                    <a id="downloadLink" href="Ascilin_Raj_Resume.pdf" target="_blank"
+                        style="text-decoration:none;padding:10px 14px;border-radius:10px;border:1px solid rgba(34,211,238,0.08);font-weight:800;color:black;background: linear-gradient(90deg, var(--accent1), var(--accent2));">Download
+                        Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="reveal" data-reveal style="margin-top:26px; padding-top: 50px;">
+            <div style="margin-top: -13%;">
+                <div style="font-weight: 800; padding-bottom: 10px; font-size: larger; margin-left:80%;">Get in touch
+                </div>
+                <div class="muted" style="margin-top:6px;margin-left:80%;">Email: <strong
+                        style="color:var(--text); padding-left: 20px;">ascilinraj@gmail.com</strong></div>
+                <div class="muted" style="margin-top:4px; margin-left:80%;">Phone: <strong
+                        style="color:var(--text); padding-left: 20px;">+91 78450
+                        46180</strong></div>
+                <div class="muted" style="margin-top:4px;margin-left:80%;">LinkedIn : <a
+                        href="https://www.linkedin.com/in/ascilin-raj-8a1b7b390 " target="_blank"
+                        style="padding-left: 20px;"><img src="images/linkedin (1).png"
+                            style="height: 30px; width: 30px;"></a></div>
+            </div>
+            <div style="text-align:center;" class="locate">
+                <div class="muted">Location</div>
+                <div style="font-weight:800">Tamil Nadu, India</div>
+
+            </div>
+
+        </section>
+    </div>
+    </div>
+    <script>
+
+
+        // reveal on scroll
+        const io = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+        document.getElementById('resumeBtn').addEventListener('click', () => {
+            const link = document.getElementById('downloadLink');
+            link.click();
+        });
+
+        // smooth internal links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const href = a.getAttribute('href');
+                if (href.length > 1) { e.preventDefault(); document.querySelector(href).scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+            });
+        });
+
+        // // Mobile left drawer toggle
+        // const menuBtn = document.getElementById("menuToggle");
+        // const mobileMenu = document.getElementById("mobileMenu");
+
+        // menuBtn.addEventListener("click", () => {
+        //     mobileMenu.classList.toggle("open");
+        // });
+
+    </script>
+</body>
+
+</html>
